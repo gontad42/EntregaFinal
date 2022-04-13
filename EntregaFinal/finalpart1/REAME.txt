@@ -1,0 +1,4 @@
+1) ingresas al inicio. 
+2) Si buscas un buen libro preciosa en el menu libros, para ver todos los productos.
+3)Si encontraste lo que buscabas, preciona donde dice PRECIONE AQUIN! en la parte baja del libro
+4) es mismo url lo derivara a la pagina de prestamos de libros, donde debe llenar los datos del libro  retirado de la biblioteca, PERO antes debes estar logueado.

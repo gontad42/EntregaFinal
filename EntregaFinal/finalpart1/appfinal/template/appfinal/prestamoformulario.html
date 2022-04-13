@@ -1,0 +1,28 @@
+{% if formulario2.errors %}
+
+
+    
+<p style="color: red;"> Los datos ingresados son incorrectos, por favor volver a ingresar!</p>
+
+{% endif %}
+<body style="background-color: rgb(219, 215, 215);">
+<form action="" method="POST">{% csrf_token %}
+
+    
+
+    
+    <table style="background-color: rgb(120, 180, 120);" >
+
+        <center>
+            
+            {{ formulario2.as_table }}
+
+    </center>
+    </table>
+
+    <input type="submit", value="Enviar">
+     
+    <center><h4 style="position: initial;">Su peticion del libro a sido un exito. En breve le estara llegando via mail su libro</h4></center>
+
+</form>
+</body>

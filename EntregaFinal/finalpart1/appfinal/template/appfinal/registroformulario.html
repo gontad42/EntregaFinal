@@ -1,0 +1,26 @@
+{% if formulario.errors %}
+
+
+    
+<p style="color: red;"> Los datos ingresados son incorrectos, por favor volver a ingresar!</p>
+
+{% endif %}
+<body style="background-color: rgb(219, 215, 215);">
+<form action="" method="POST">{% csrf_token %}
+
+    <center><h4 style="position: initial;">Por favor registrate para poder avanzar</h4></center>
+
+    
+    <table style="background-color: rgb(120, 180, 120);" >
+
+        <center>
+            
+            {{ formulario.as_table }}
+
+    </center>
+    </table>
+
+    <input type="submit", value="Enviar">
+
+</form>
+</body>
